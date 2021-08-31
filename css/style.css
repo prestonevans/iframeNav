@@ -129,3 +129,18 @@ input,
 select {
 	vertical-align: middle;
 }
+ul {
+	display: flex;
+	background-color: cadetblue;
+}
+li {
+	list-style: none;
+	padding: 1em;
+	color: white;
+}
+ul li:not(:last-child) {
+	margin-right: 2rem;
+}
+iframe {
+	width: 100%;
+}
